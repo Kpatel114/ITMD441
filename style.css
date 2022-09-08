@@ -1,11 +1,27 @@
 * {
-
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: whitesmoke;
 }
 
+nav {
+  background: black;
+  opacity: 75%;
+  height: 100px;
+  position: relative;
+}
+ion-icon {
+  position: absolute;
+  left: 18px;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+
+}
 ul {
   display: flex;
   justify-content: flex-end;
@@ -18,4 +34,34 @@ li {
   list-style: none;
   text-decoration:none;
   cursor:pointer;
+  color: white;
+  border: solid 1px whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+li:hover{
+  background-color: gainsboro;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+.container-heading {
+  background-image: url("images/mistyforest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+  text-align: center;
+}
+.header-h1 {
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+.main-section {
+  background-color: azure;
+  text-align: center;
 }
