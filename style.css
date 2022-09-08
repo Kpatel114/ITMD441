@@ -1,0 +1,21 @@
+* {
+
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 15px;
+  padding: 10px;
+
+}
+li {
+  list-style: none;
+  text-decoration:none;
+  cursor:pointer;
+}
