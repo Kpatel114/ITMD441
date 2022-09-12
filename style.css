@@ -48,20 +48,47 @@ li:hover{
   background-image: url("images/mistyforest.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5);
   width: auto;
-  height: 600px;
+  height: 100vh;
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-h1 {
-  margin: auto;
-  vertical-align: middle;
-  text-align: center;
-  padding-top: 50px;
-  font-family: 'Libre Baskerville', serif;
-  font-style: italic;
   font-weight: lighter;
+  margin: 10px;
 }
 .main-section {
-  background-color: azure;
-  text-align: center;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border: 1px solid gainsboro;
+  color: black;
+  opacity: 0.7;
+}
+button {
+  margin: 10px;
+  list-style: none;
+  text-decoration:none;
+  cursor:pointer;
+  color: white;
+  border: solid 1px whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+button:hover{
+  background-color: gray;
+  color: white;
+  transition: 0.3s ease-in-out;
 }
