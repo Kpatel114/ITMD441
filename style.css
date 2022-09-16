@@ -93,6 +93,6 @@ a:link {
 }
 button:hover{
   background-color: gray;
-  color: rgb(0, 0, 0);
+  color: black;
   transition: 0.3s ease-in-out;
 }
